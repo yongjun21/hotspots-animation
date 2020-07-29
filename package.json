@@ -1,0 +1,65 @@
+{
+  "name": "hotspots-animation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@st-graphics/scrolly": "0.0.6",
+    "core-js": "^2.6.11",
+    "mapbox-gl": "^1.11.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@st-graphics/backend": "^0.1.70",
+    "@turf/boolean-point-in-polygon": "^6.0.1",
+    "@turf/buffer": "^5.1.5",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.1.0",
+    "date-fns": "^2.15.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "loadash": "^1.0.0",
+    "papaparse": "^5.2.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.11",
+    "worker-loader": "^2.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "never"
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie < 11"
+  ]
+}
