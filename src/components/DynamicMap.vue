@@ -164,7 +164,7 @@ export default {
 
     map.on('load', () => {
       this.addHotspotsLayer(map)
-      this.addWindLayer(map)
+      // this.addWindLayer(map)
     })
   }
 }
